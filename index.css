@@ -4,24 +4,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Outfit;
-  scroll-behavior: smooth;
 }
 body{
   min-height: 100vh;
+  background-color: #fcfcfc;
 }
 a{
   text-decoration: none;
-  color: inherit;
+  color:inherit
 }
-.app{
-  width: 80%;
-  margin: auto;
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
 }
-@keyframes fadeIn {
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
+.app-content{
+  display: flex;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
 }
